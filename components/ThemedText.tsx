@@ -2,10 +2,10 @@ import { Text, TextProps } from "react-native";
 
 interface Props extends TextProps {
   className?: string;
-  type: "normal" | "h1" | "h2" | "semibold" | "link";
+  type?: "normal" | "h1" | "h2" | "semibold" | "link";
 }
 
-const ThemedText = ({ className, type, ...rest }: Props) => {
+const ThemedText = ({ className, type = "normal", ...rest }: Props) => {
   return (
     <Text
       {...rest}
