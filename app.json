@@ -33,6 +33,12 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
+      ],
+      [
+        "expo-audio",
+        {
+          "microphonePermission": "Allow Components App to access your microphone."
+        }
       ]
     ],
     "experiments": {

@@ -51,9 +51,14 @@ export const uiMenuRoutes: MenuRoute[] = [
     name: "alerts/index",
   },
   {
-    title: "TextInputs",
+    title: "Text Inputs",
     icon: "document-text-outline",
     name: "text-inputs/index",
+  },
+  {
+    title: "Audio Notes",
+    icon: "mic-circle-outline",
+    name: "audio-notes/index",
   },
 ];
 

@@ -15,6 +15,7 @@ const ThemedText = ({ className, type = "normal", ...rest }: Props) => {
         type === "h2" ? "text-xl" : undefined,
         type === "semibold" ? "font-semibold" : undefined,
         type === "link" ? "font-normal underline" : undefined,
+        ` ${className}`,
       ].join(" ")}
     />
   );
