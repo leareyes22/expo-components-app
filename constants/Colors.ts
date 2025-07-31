@@ -19,7 +19,7 @@ export const Colors = {
     tertiary: '#ff527f',
     success: '#3a9d78',
 
-    text: '#ECEDEE',
+    text: '#FFFFFF',
     background: '#17202A',
   },
 };
